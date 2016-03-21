@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery-1.7.1.intellisense.js"></script>
+    <title></title>
+    <script>
+        var datas = {
+            '北京': ['朝阳', '海淀', '中关村', '二环'],
+            '温州': ['乐清', '瑞安', '虹桥', '苍南'],
+            '杭州': ['桐庐', '富阳', '临安', '萧山'],
+            '金华': ['义乌', '东阳', '横店', '乡下']
+        }
+
+        //$(function () {
+        //    var $selectCity = $('<select id = "City"></select>').appendTo('body');
+        //    var $selectTown = $('<select id = "Town"></select>').appendTo('body');
+            
+        //    $selectCity.change(function () {
+        //        var select = datas[$(this).val()];
+        //        $('#Town').empty();
+        //        $.each(select, function (index, item) {
+        //            $('<option >' + item + '</option>').appendTo($('#Town'));
+        //        })
+        //    })
+           
+        //    $.each(datas, function (key, value) {
+        //        $('<option value = "' + key + '">' + key + '</option>').appendTo($selectCity);               
+        //    })
+           
+        //    var $City = $('#City').val();
+        //    var $Town = datas[$City];
+        //    $.each($Town, function (index, item) {
+        //        $('<option >' + item + '</option>').appendTo($selectTown);               
+        //    })
+        //    })
+
+
+            
+ 
+            $(function(){
+                $('#MyDataGrid tr').dblclick(function () {
+
+                    var lastrow = $('#MyDataGrid tr').last();
+                    $(this).clone(true).replaceAll(lastrow);
+                    $('#MyDataGrid tr').last().children('td').eq(0).text($('#MyDataGrid tr').length);
+                    $('#MyDataGrid tr').last().clone(true).insertAfter($('#MyDataGrid tr').last());
+                    $('#MyDataGrid tr').last().children('td').eq(0).text($('#MyDataGrid tr').length);
+                    //$(this).clone(true).replaceAll(lastrow);
+                    //$('#MyDataGrid tr').last().empty();
+                })
+            })
+    </script>
+
+</head>
+<body>
+    <table id="MyDataGrid">
+        <tr style="border: 1px solid red ;width:50px">
+            <td style="border: 1px solid red">1</td>
+            <td style="border: 1px solid red">列</td>
+        </tr>
+        <tr style="border: 1px solid red ;width:50px">
+            <td style="border: 1px solid red">3</td>
+            <td style="border: 1px solid red">列2</td>
+        </tr>
+    </table>
+</body>
+</html>
+<script></script>

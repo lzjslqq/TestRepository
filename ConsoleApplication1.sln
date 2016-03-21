@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{F75FCB80-76DF-4A59-8965-0B1BBACC8AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{6B0997D5-E8CB-42CA-BC69-532FDD6EB89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication3", "ConsoleApplication3\ConsoleApplication3.csproj", "{C75493A2-991C-498D-9032-51132195F2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication4", "ConsoleApplication4\ConsoleApplication4.csproj", "{2FA9AABE-DEB6-4686-8BBF-5D31E9E1C3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{CFE60715-E855-45A8-BDEB-3C6DEE160AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式\单例模式.csproj", "{E3A130A0-B450-46E8-A656-0671F805185E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jquery练习", "jquery练习\jquery练习.csproj", "{36192272-F702-40FF-BD01-D8FE165D326B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75FCB80-76DF-4A59-8965-0B1BBACC8AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75FCB80-76DF-4A59-8965-0B1BBACC8AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75FCB80-76DF-4A59-8965-0B1BBACC8AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75FCB80-76DF-4A59-8965-0B1BBACC8AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0997D5-E8CB-42CA-BC69-532FDD6EB89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0997D5-E8CB-42CA-BC69-532FDD6EB89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0997D5-E8CB-42CA-BC69-532FDD6EB89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0997D5-E8CB-42CA-BC69-532FDD6EB89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75493A2-991C-498D-9032-51132195F2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75493A2-991C-498D-9032-51132195F2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75493A2-991C-498D-9032-51132195F2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75493A2-991C-498D-9032-51132195F2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA9AABE-DEB6-4686-8BBF-5D31E9E1C3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA9AABE-DEB6-4686-8BBF-5D31E9E1C3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA9AABE-DEB6-4686-8BBF-5D31E9E1C3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA9AABE-DEB6-4686-8BBF-5D31E9E1C3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE60715-E855-45A8-BDEB-3C6DEE160AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE60715-E855-45A8-BDEB-3C6DEE160AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE60715-E855-45A8-BDEB-3C6DEE160AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE60715-E855-45A8-BDEB-3C6DEE160AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A130A0-B450-46E8-A656-0671F805185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A130A0-B450-46E8-A656-0671F805185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A130A0-B450-46E8-A656-0671F805185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A130A0-B450-46E8-A656-0671F805185E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36192272-F702-40FF-BD01-D8FE165D326B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36192272-F702-40FF-BD01-D8FE165D326B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36192272-F702-40FF-BD01-D8FE165D326B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36192272-F702-40FF-BD01-D8FE165D326B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
