@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery-1.7.1.intellisense.js"></script>
+    <script>
+        $(function () {
+
+            $('span').css('cursor', 'pointer').toggle
+                (
+                function () { $(this).next().children().slideDown(300);},
+                function () { $(this).next().children().slideUp(300); }
+                )
+        })
+    </script>
+</head>
+<body>
+    <span>我的好友</span>
+        <ul id="friend">
+            <li>张三</li>
+            <li>赵四</li>
+            <li>王五</li>
+            <li>李七</li>
+        </ul>
+    <span>黑名单</span>
+        <ul id="list"> 
+            <li>重点</li>
+            <li>萨克</li>
+            <li>说的</li>
+            <li>风格</li>
+        </ul>
+</body>
+</html>
