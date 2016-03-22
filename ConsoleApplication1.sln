@@ -17,6 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jquery练习", "jquery练习\jquery练习.csproj", "{36192272-F702-40FF-BD01-D8FE165D326B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForm1", "WebForm1\WebForm1.csproj", "{AF93A815-5D65-46A4-9CDA-1090A0280453}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36192272-F702-40FF-BD01-D8FE165D326B} = {36192272-F702-40FF-BD01-D8FE165D326B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +56,10 @@ Global
 		{36192272-F702-40FF-BD01-D8FE165D326B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36192272-F702-40FF-BD01-D8FE165D326B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36192272-F702-40FF-BD01-D8FE165D326B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF93A815-5D65-46A4-9CDA-1090A0280453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF93A815-5D65-46A4-9CDA-1090A0280453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF93A815-5D65-46A4-9CDA-1090A0280453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF93A815-5D65-46A4-9CDA-1090A0280453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
