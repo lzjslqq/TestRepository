@@ -15,7 +15,7 @@ namespace WebForm1
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-        {
+        {//获取同一个解决方案中的webservice
             //Weather.WeatherWebServiceSoapClient w = new Weather.WeatherWebServiceSoapClient();
             //localhost.WebServiceTest wt = new localhost.WebServiceTest();
             myWebService.WebServiceTestSoapClient w = new myWebService.WebServiceTestSoapClient();
