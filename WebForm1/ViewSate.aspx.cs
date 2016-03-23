@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebForm1
+{
+    public partial class ViewSate : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            int num = Convert.ToInt32(Request.Form["txtNum"]);
+            num++;
+            txtNum.Value = num.ToString();
+        }
+    }
+}
